@@ -1,0 +1,148 @@
+{
+    "generatedAtUtc":  "2026-11-18T18:07:40.9664594+00:00",
+    "method":  "Saved VPP tool group replay using CogImageFileTool and existing data bindings",
+    "scope":  "Development samples and additional replay of one PCB layout, checking the bottom 122 resistor",
+    "project":  "visionpro/PCB_AOI.vpp",
+    "projectSha256":  "07c6716f1bfa0d19ececee84cf8b42d5dd6cef8ab77640f3183efa8a69e07a54",
+    "visionProAssemblyVersion":  "59.2.0.0",
+    "configuration":  {
+                          "jobName":  "CogJob1",
+                          "tools":  [
+                                        "CogBlobTool1",
+                                        "CogFixtureTool1",
+                                        "CogImageConvertTool1",
+                                        "CogPMAlignTool1",
+                                        "CogPMAlignTool2",
+                                        "CogResultsAnalysisTool1",
+                                        "Image Source"
+                                    ],
+                          "patternAlgorithm":  "PatMax",
+                          "pmAcceptThreshold":  0.6,
+                          "blobSpace":  "@\\PCB",
+                          "blobCenterX":  204.61917248748966,
+                          "blobCenterY":  456.65441095507657,
+                          "blobWidth":  18,
+                          "blobHeight":  18,
+                          "blobSegmentation":  "HardFixedThreshold",
+                          "blobPolarity":  "LightBlobs",
+                          "blobThreshold":  110
+                      },
+    "samples":  [
+                    {
+                        "image":  "images/reference/visa_pcb4_normal_0000.jpg",
+                        "target":  "bottom_122_resistor",
+                        "targetPresent":  true,
+                        "role":  "template_training",
+                        "expected":  "Accept",
+                        "imageSha256":  "a7ac6b0306a280770c2f2c135fde8d535598d935ebf493ba40ffd5c04304042e",
+                        "pmCount":  1,
+                        "pmScore":  0.99951249361038208,
+                        "pmAccepted":  true,
+                        "blobCount":  3,
+                        "blobAreas":  [
+                                          68.983155325062725,
+                                          57.985840708023737,
+                                          20.994873359801698
+                                      ],
+                        "result":  "Accept",
+                        "matchesExpected":  true,
+                        "error":  null
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                        "target":  "bottom_122_resistor",
+                        "targetPresent":  true,
+                        "role":  "parameter_development",
+                        "expected":  "Accept",
+                        "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                        "pmCount":  1,
+                        "pmScore":  0.80913305282592773,
+                        "pmAccepted":  true,
+                        "blobCount":  2,
+                        "blobAreas":  [
+                                          40.995304791497219,
+                                          29.996564481583334
+                                      ],
+                        "result":  "Accept",
+                        "matchesExpected":  true,
+                        "error":  null
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_missing_046.jpg",
+                        "target":  "bottom_122_resistor",
+                        "targetPresent":  false,
+                        "role":  "parameter_development",
+                        "expected":  "Reject",
+                        "imageSha256":  "8bcd0cee6f923dd1dc8902507b20e89656736d7247331d9f6505d2e35dfb29bf",
+                        "pmCount":  1,
+                        "pmScore":  0.76853060722351074,
+                        "pmAccepted":  true,
+                        "blobCount":  0,
+                        "blobAreas":  [
+
+                                      ],
+                        "result":  "Reject",
+                        "matchesExpected":  true,
+                        "error":  null
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_missing_049.jpg",
+                        "target":  "bottom_122_resistor",
+                        "targetPresent":  true,
+                        "role":  "additional_replay",
+                        "expected":  "Accept",
+                        "imageSha256":  "d7873fe67f9e5c195504e3fec7d71daeb7818791e3bf4be23b6ec2764fa91d2e",
+                        "pmCount":  1,
+                        "pmScore":  0.70988577604293823,
+                        "pmAccepted":  true,
+                        "blobCount":  3,
+                        "blobAreas":  [
+                                          71.994693416673542,
+                                          26.99801003125258,
+                                          17.998673354168385
+                                      ],
+                        "result":  "Accept",
+                        "matchesExpected":  true,
+                        "error":  null
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_wrong_place_090.jpg",
+                        "target":  "bottom_122_resistor",
+                        "targetPresent":  true,
+                        "role":  "additional_replay",
+                        "expected":  "Accept",
+                        "imageSha256":  "9d2ae7988d07d5b9a9e803e057d502e9cae8f96e40859ababeed2f90ab5ce46a",
+                        "pmCount":  1,
+                        "pmScore":  0.71386712789535522,
+                        "pmAccepted":  true,
+                        "blobCount":  3,
+                        "blobAreas":  [
+                                          78.002334275371538,
+                                          30.000897798219821,
+                                          22.000658385361202
+                                      ],
+                        "result":  "Accept",
+                        "matchesExpected":  true,
+                        "error":  null
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_wrong_place_096.jpg",
+                        "target":  "bottom_122_resistor",
+                        "targetPresent":  true,
+                        "role":  "additional_replay",
+                        "expected":  "Accept",
+                        "imageSha256":  "af822e7a03633bc31cbae1a23f2748606cd37817be6902e96a3e89dcc7fa746d",
+                        "pmCount":  1,
+                        "pmScore":  0.795199990272522,
+                        "pmAccepted":  true,
+                        "blobCount":  2,
+                        "blobAreas":  [
+                                          72.992752666073343,
+                                          60.993944008636632
+                                      ],
+                        "result":  "Accept",
+                        "matchesExpected":  true,
+                        "error":  null
+                    }
+                ]
+}

@@ -1,0 +1,384 @@
+{
+    "generatedAtUtc":  "2026-11-18T11:04:58.2039917+00:00",
+    "method":  "Native CogImageFileTool and saved QuickBuild application tool-group replay",
+    "scope":  "Development replay for bottom 122 resistor only; no independent accuracy claim",
+    "project":  "visionpro/PCB_AOI_position.vpp",
+    "projectSha256":  "b4353cdef2a370a99e1946a52a289390ad36de8ba7be68e0d9166c14160ef41c",
+    "scriptSha256":  "ef73c9ee2654dd8f57d2b57058579a8ae077f2a8e36fda27ce5e4fc9a74a42df",
+    "configuration":  {
+                          "ReferenceX":  215.99061998603671,
+                          "ToleranceX":  20,
+                          "unit":  "Uncalibrated PCB coordinate units at nominal scale 1; pixel-scale, not millimetres",
+                          "ReferenceY":  455.9832554235843,
+                          "ToleranceY":  8
+                      },
+    "samples":  [
+                    {
+                        "image":  "images/reference/visa_pcb4_normal_0000.jpg",
+                        "imageSha256":  "a7ac6b0306a280770c2f2c135fde8d535598d935ebf493ba40ffd5c04304042e",
+                        "role":  "template_training",
+                        "expectedReason":  "PASS",
+                        "expectedResult":  "Accept",
+                        "result":  "Accept",
+                        "message":  "PASS",
+                        "values":  {
+                                       "Decision":  "OK",
+                                       "Reason":  "PASS",
+                                       "FinalOK":  true,
+                                       "BoardFound":  true,
+                                       "TargetFound":  true,
+                                       "BoardScore":  0.99951249361038208,
+                                       "TargetScore":  0.859586775302887,
+                                       "TargetX":  212.55983384832308,
+                                       "TargetY":  456.56365462059523,
+                                       "DeltaX":  -3.4307861377136248,
+                                       "DeltaY":  0.58039919701093368,
+                                       "BlobCount":  3,
+                                       "ErrorDetail":  ""
+                                   },
+                        "matchesExpected":  true
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                        "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                        "role":  "parameter_development",
+                        "expectedReason":  "PASS",
+                        "expectedResult":  "Accept",
+                        "result":  "Accept",
+                        "message":  "PASS",
+                        "values":  {
+                                       "Decision":  "OK",
+                                       "Reason":  "PASS",
+                                       "FinalOK":  true,
+                                       "BoardFound":  true,
+                                       "TargetFound":  true,
+                                       "BoardScore":  0.80913305282592773,
+                                       "TargetScore":  0.98685532808303833,
+                                       "TargetX":  215.99061998603671,
+                                       "TargetY":  455.9832554235843,
+                                       "DeltaX":  0,
+                                       "DeltaY":  0,
+                                       "BlobCount":  2,
+                                       "ErrorDetail":  ""
+                                   },
+                        "matchesExpected":  true
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_missing_046.jpg",
+                        "imageSha256":  "8bcd0cee6f923dd1dc8902507b20e89656736d7247331d9f6505d2e35dfb29bf",
+                        "role":  "parameter_development",
+                        "expectedReason":  "TARGET_MISSING",
+                        "expectedResult":  "Reject",
+                        "result":  "Reject",
+                        "message":  "TARGET_MISSING",
+                        "values":  {
+                                       "Decision":  "NG",
+                                       "Reason":  "TARGET_MISSING",
+                                       "FinalOK":  false,
+                                       "BoardFound":  true,
+                                       "TargetFound":  false,
+                                       "BoardScore":  0.76853060722351074,
+                                       "TargetScore":  0,
+                                       "TargetX":  null,
+                                       "TargetY":  null,
+                                       "DeltaX":  null,
+                                       "DeltaY":  null,
+                                       "BlobCount":  0,
+                                       "ErrorDetail":  ""
+                                   },
+                        "matchesExpected":  true
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_missing_049.jpg",
+                        "imageSha256":  "d7873fe67f9e5c195504e3fec7d71daeb7818791e3bf4be23b6ec2764fa91d2e",
+                        "role":  "additional_replay",
+                        "expectedReason":  "PASS",
+                        "expectedResult":  "Accept",
+                        "result":  "Accept",
+                        "message":  "PASS",
+                        "values":  {
+                                       "Decision":  "OK",
+                                       "Reason":  "PASS",
+                                       "FinalOK":  true,
+                                       "BoardFound":  true,
+                                       "TargetFound":  true,
+                                       "BoardScore":  0.70988577604293823,
+                                       "TargetScore":  0.69777101278305054,
+                                       "TargetX":  201.45716855163568,
+                                       "TargetY":  458.70794541554477,
+                                       "DeltaX":  -14.53345143440103,
+                                       "DeltaY":  2.7246899919604743,
+                                       "BlobCount":  3,
+                                       "ErrorDetail":  ""
+                                   },
+                        "matchesExpected":  true
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_wrong_place_090.jpg",
+                        "imageSha256":  "9d2ae7988d07d5b9a9e803e057d502e9cae8f96e40859ababeed2f90ab5ce46a",
+                        "role":  "additional_replay",
+                        "expectedReason":  "PASS",
+                        "expectedResult":  "Accept",
+                        "result":  "Accept",
+                        "message":  "PASS",
+                        "values":  {
+                                       "Decision":  "OK",
+                                       "Reason":  "PASS",
+                                       "FinalOK":  true,
+                                       "BoardFound":  true,
+                                       "TargetFound":  true,
+                                       "BoardScore":  0.71386712789535522,
+                                       "TargetScore":  0.841719388961792,
+                                       "TargetX":  207.65059657592849,
+                                       "TargetY":  455.467333009117,
+                                       "DeltaX":  -8.3400234101082162,
+                                       "DeltaY":  -0.51592241446729759,
+                                       "BlobCount":  3,
+                                       "ErrorDetail":  ""
+                                   },
+                        "matchesExpected":  true
+                    },
+                    {
+                        "image":  "images/raw/visa_pcb4_wrong_place_096.jpg",
+                        "imageSha256":  "af822e7a03633bc31cbae1a23f2748606cd37817be6902e96a3e89dcc7fa746d",
+                        "role":  "additional_replay",
+                        "expectedReason":  "PASS",
+                        "expectedResult":  "Accept",
+                        "result":  "Accept",
+                        "message":  "PASS",
+                        "values":  {
+                                       "Decision":  "OK",
+                                       "Reason":  "PASS",
+                                       "FinalOK":  true,
+                                       "BoardFound":  true,
+                                       "TargetFound":  true,
+                                       "BoardScore":  0.795199990272522,
+                                       "TargetScore":  0.85593581199646,
+                                       "TargetX":  205.13745034121152,
+                                       "TargetY":  456.13960929808536,
+                                       "DeltaX":  -10.853169644825186,
+                                       "DeltaY":  0.15635387450106464,
+                                       "BlobCount":  2,
+                                       "ErrorDetail":  ""
+                                   },
+                        "matchesExpected":  true
+                    }
+                ],
+    "logicChecks":  [
+                        {
+                            "override":  {
+                                             "ToleranceX":  0.1
+                                         },
+                            "measurement":  {
+                                                "image":  "images/reference/visa_pcb4_normal_0000.jpg",
+                                                "imageSha256":  "a7ac6b0306a280770c2f2c135fde8d535598d935ebf493ba40ffd5c04304042e",
+                                                "role":  "logic_check_only",
+                                                "expectedReason":  "TARGET_OUT_OF_POSITION",
+                                                "expectedResult":  "Reject",
+                                                "result":  "Reject",
+                                                "message":  "TARGET_OUT_OF_POSITION",
+                                                "values":  {
+                                                               "Decision":  "NG",
+                                                               "Reason":  "TARGET_OUT_OF_POSITION",
+                                                               "FinalOK":  false,
+                                                               "BoardFound":  true,
+                                                               "TargetFound":  true,
+                                                               "BoardScore":  0.99951249361038208,
+                                                               "TargetScore":  0.859586775302887,
+                                                               "TargetX":  212.55983384832308,
+                                                               "TargetY":  456.56365462059523,
+                                                               "DeltaX":  -3.4307861377136248,
+                                                               "DeltaY":  0.58039919701093368,
+                                                               "BlobCount":  3,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        },
+                        {
+                            "override":  {
+
+                                         },
+                            "measurement":  {
+                                                "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                                                "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                                                "role":  "recovery_check",
+                                                "expectedReason":  "PASS",
+                                                "expectedResult":  "Accept",
+                                                "result":  "Accept",
+                                                "message":  "PASS",
+                                                "values":  {
+                                                               "Decision":  "OK",
+                                                               "Reason":  "PASS",
+                                                               "FinalOK":  true,
+                                                               "BoardFound":  true,
+                                                               "TargetFound":  true,
+                                                               "BoardScore":  0.80913305282592773,
+                                                               "TargetScore":  0.98685532808303833,
+                                                               "TargetX":  215.99061998603671,
+                                                               "TargetY":  455.9832554235843,
+                                                               "DeltaX":  0,
+                                                               "DeltaY":  0,
+                                                               "BlobCount":  2,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        },
+                        {
+                            "override":  {
+                                             "BoardAcceptThreshold":  1
+                                         },
+                            "measurement":  {
+                                                "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                                                "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                                                "role":  "logic_check_only",
+                                                "expectedReason":  "BOARD_NOT_FOUND",
+                                                "expectedResult":  "Reject",
+                                                "result":  "Reject",
+                                                "message":  "BOARD_NOT_FOUND",
+                                                "values":  {
+                                                               "Decision":  "NG",
+                                                               "Reason":  "BOARD_NOT_FOUND",
+                                                               "FinalOK":  false,
+                                                               "BoardFound":  false,
+                                                               "TargetFound":  false,
+                                                               "BoardScore":  0,
+                                                               "TargetScore":  0,
+                                                               "TargetX":  null,
+                                                               "TargetY":  null,
+                                                               "DeltaX":  null,
+                                                               "DeltaY":  null,
+                                                               "BlobCount":  0,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        },
+                        {
+                            "override":  {
+
+                                         },
+                            "measurement":  {
+                                                "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                                                "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                                                "role":  "recovery_check",
+                                                "expectedReason":  "PASS",
+                                                "expectedResult":  "Accept",
+                                                "result":  "Accept",
+                                                "message":  "PASS",
+                                                "values":  {
+                                                               "Decision":  "OK",
+                                                               "Reason":  "PASS",
+                                                               "FinalOK":  true,
+                                                               "BoardFound":  true,
+                                                               "TargetFound":  true,
+                                                               "BoardScore":  0.80913305282592773,
+                                                               "TargetScore":  0.98685532808303833,
+                                                               "TargetX":  215.99061998603671,
+                                                               "TargetY":  455.9832554235843,
+                                                               "DeltaX":  0,
+                                                               "DeltaY":  0,
+                                                               "BlobCount":  2,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        },
+                        {
+                            "override":  {
+                                             "ToleranceX":  0
+                                         },
+                            "measurement":  {
+                                                "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                                                "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                                                "role":  "logic_check_only",
+                                                "expectedReason":  "INVALID_TOLERANCE",
+                                                "expectedResult":  "Reject",
+                                                "result":  "Reject",
+                                                "message":  "INVALID_TOLERANCE",
+                                                "values":  {
+                                                               "Decision":  "NG",
+                                                               "Reason":  "INVALID_TOLERANCE",
+                                                               "FinalOK":  false,
+                                                               "BoardFound":  true,
+                                                               "TargetFound":  true,
+                                                               "BoardScore":  0.80913305282592773,
+                                                               "TargetScore":  0.98685532808303833,
+                                                               "TargetX":  215.99061998603671,
+                                                               "TargetY":  455.9832554235843,
+                                                               "DeltaX":  0,
+                                                               "DeltaY":  0,
+                                                               "BlobCount":  2,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        },
+                        {
+                            "override":  {
+
+                                         },
+                            "measurement":  {
+                                                "image":  "images/raw/visa_pcb4_missing_046.jpg",
+                                                "imageSha256":  "8bcd0cee6f923dd1dc8902507b20e89656736d7247331d9f6505d2e35dfb29bf",
+                                                "role":  "recovery_check",
+                                                "expectedReason":  "TARGET_MISSING",
+                                                "expectedResult":  "Reject",
+                                                "result":  "Reject",
+                                                "message":  "TARGET_MISSING",
+                                                "values":  {
+                                                               "Decision":  "NG",
+                                                               "Reason":  "TARGET_MISSING",
+                                                               "FinalOK":  false,
+                                                               "BoardFound":  true,
+                                                               "TargetFound":  false,
+                                                               "BoardScore":  0.76853060722351074,
+                                                               "TargetScore":  0,
+                                                               "TargetX":  null,
+                                                               "TargetY":  null,
+                                                               "DeltaX":  null,
+                                                               "DeltaY":  null,
+                                                               "BlobCount":  0,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        },
+                        {
+                            "override":  {
+
+                                         },
+                            "measurement":  {
+                                                "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                                                "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                                                "role":  "recovery_check",
+                                                "expectedReason":  "PASS",
+                                                "expectedResult":  "Accept",
+                                                "result":  "Accept",
+                                                "message":  "PASS",
+                                                "values":  {
+                                                               "Decision":  "OK",
+                                                               "Reason":  "PASS",
+                                                               "FinalOK":  true,
+                                                               "BoardFound":  true,
+                                                               "TargetFound":  true,
+                                                               "BoardScore":  0.80913305282592773,
+                                                               "TargetScore":  0.98685532808303833,
+                                                               "TargetX":  215.99061998603671,
+                                                               "TargetY":  455.9832554235843,
+                                                               "DeltaX":  0,
+                                                               "DeltaY":  0,
+                                                               "BlobCount":  2,
+                                                               "ErrorDetail":  ""
+                                                           },
+                                                "matchesExpected":  true
+                                            }
+                        }
+                    ],
+    "limitations":  [
+                        "Position limits are coarse development settings",
+                        "No confirmed bottom-122 displaced defect sample has been evaluated",
+                        "Parameter overrides test logic only and are excluded from image-test counts"
+                    ]
+}

@@ -1,0 +1,36 @@
+{
+    "generatedAtUtc":  "2026-11-18T08:24:54.6379432+00:00",
+    "method":  "Load saved VPP, run CogJobManager with its persisted Image Source, read UserResult",
+    "projectSha256":  "80bfb3697522af032da42a71f779fce2f9673defad022d8f6f88d04d222ba724",
+    "records":  [
+                    {
+                        "key":  "ShowLastRunRecordForUserQueue",
+                        "annotation":  "ShowLastRunRecordForUserQueue",
+                        "type":  "Cognex.VisionPro.Implementation.CogRecord"
+                    },
+                    {
+                        "key":  "BlobCount",
+                        "annotation":  "BlobCount",
+                        "type":  "System.Int32",
+                        "value":  0
+                    },
+                    {
+                        "key":  "JobName",
+                        "annotation":  "JobName",
+                        "type":  "System.String",
+                        "value":  "CogJob1"
+                    },
+                    {
+                        "key":  "UserResultTag",
+                        "annotation":  "UserResultTag",
+                        "type":  "System.Int32",
+                        "value":  37
+                    },
+                    {
+                        "key":  "RunStatus",
+                        "annotation":  "RunStatus",
+                        "type":  "Cognex.VisionPro.Implementation.CogRunStatus",
+                        "value":  "Reject"
+                    }
+                ]
+}

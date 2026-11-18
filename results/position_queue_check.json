@@ -1,0 +1,113 @@
+{
+    "generatedAtUtc":  "2026-11-18T11:04:59.4934510+00:00",
+    "project":  "visionpro/PCB_AOI_position.vpp",
+    "projectSha256":  "b4353cdef2a370a99e1946a52a289390ad36de8ba7be68e0d9166c14160ef41c",
+    "method":  "Freshly deserialized CogJobManager: change synthetic acquisition Filename, Run, read UserResult packet",
+    "note":  "Threshold override exercises the failure guard only; the image remains unmodified",
+    "cases":  [
+                  {
+                      "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                      "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                      "boardThresholdOverride":  null,
+                      "expectedReason":  "PASS",
+                      "fields":  {
+                                     "BlobCount":  2,
+                                     "Decision":  "OK",
+                                     "Reason":  "PASS",
+                                     "FinalOK":  true,
+                                     "BoardFound":  true,
+                                     "TargetFound":  true,
+                                     "TargetX":  215.99061998603671,
+                                     "TargetY":  455.9832554235843,
+                                     "DeltaX":  0,
+                                     "DeltaY":  0,
+                                     "BoardScore":  0.80913305282592773,
+                                     "TargetScore":  0.98685532808303833,
+                                     "ErrorDetail":  "",
+                                     "JobName":  "CogJob1",
+                                     "UserResultTag":  40,
+                                     "RunStatus":  "Accept",
+                                     "Message":  "PASS"
+                                 },
+                      "matchesExpected":  true
+                  },
+                  {
+                      "image":  "images/raw/visa_pcb4_missing_046.jpg",
+                      "imageSha256":  "8bcd0cee6f923dd1dc8902507b20e89656736d7247331d9f6505d2e35dfb29bf",
+                      "boardThresholdOverride":  null,
+                      "expectedReason":  "TARGET_MISSING",
+                      "fields":  {
+                                     "BlobCount":  0,
+                                     "Decision":  "NG",
+                                     "Reason":  "TARGET_MISSING",
+                                     "FinalOK":  false,
+                                     "BoardFound":  true,
+                                     "TargetFound":  false,
+                                     "TargetX":  null,
+                                     "TargetY":  null,
+                                     "DeltaX":  null,
+                                     "DeltaY":  null,
+                                     "BoardScore":  0.76853060722351074,
+                                     "TargetScore":  0,
+                                     "ErrorDetail":  "",
+                                     "JobName":  "CogJob1",
+                                     "UserResultTag":  41,
+                                     "RunStatus":  "Reject",
+                                     "Message":  "TARGET_MISSING"
+                                 },
+                      "matchesExpected":  true
+                  },
+                  {
+                      "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                      "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                      "boardThresholdOverride":  1,
+                      "expectedReason":  "BOARD_NOT_FOUND",
+                      "fields":  {
+                                     "BlobCount":  0,
+                                     "Decision":  "NG",
+                                     "Reason":  "BOARD_NOT_FOUND",
+                                     "FinalOK":  false,
+                                     "BoardFound":  false,
+                                     "TargetFound":  false,
+                                     "TargetX":  null,
+                                     "TargetY":  null,
+                                     "DeltaX":  null,
+                                     "DeltaY":  null,
+                                     "BoardScore":  0,
+                                     "TargetScore":  0,
+                                     "ErrorDetail":  "",
+                                     "JobName":  "CogJob1",
+                                     "UserResultTag":  42,
+                                     "RunStatus":  "Reject",
+                                     "Message":  "BOARD_NOT_FOUND"
+                                 },
+                      "matchesExpected":  true
+                  },
+                  {
+                      "image":  "images/raw/visa_pcb4_normal_0001.jpg",
+                      "imageSha256":  "cf5ed3e53ae50264a7c658e5d5ed6e5d7507a5931eb4c6589d6abbbc2a130009",
+                      "boardThresholdOverride":  null,
+                      "expectedReason":  "PASS",
+                      "fields":  {
+                                     "BlobCount":  2,
+                                     "Decision":  "OK",
+                                     "Reason":  "PASS",
+                                     "FinalOK":  true,
+                                     "BoardFound":  true,
+                                     "TargetFound":  true,
+                                     "TargetX":  215.99061998603671,
+                                     "TargetY":  455.9832554235843,
+                                     "DeltaX":  0,
+                                     "DeltaY":  0,
+                                     "BoardScore":  0.80913305282592773,
+                                     "TargetScore":  0.98685532808303833,
+                                     "ErrorDetail":  "",
+                                     "JobName":  "CogJob1",
+                                     "UserResultTag":  43,
+                                     "RunStatus":  "Accept",
+                                     "Message":  "PASS"
+                                 },
+                      "matchesExpected":  true
+                  }
+              ]
+}
